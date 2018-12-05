@@ -16,7 +16,7 @@ The repository consists in a folder ('FrequencyApp'), which can be downloaded to
 2. To run the web app directly from GitHub use the following codes--> From R/Rstudio: shiny::runGitHub('Ighina/FrequencyApp','Ighina') From Windows Command Prompt: "the location of R on your computer\R.exe" -e "shiny::runGitHub('Ighina/FrequencyApp','Ighina') 
 *NB: the Command Prompt will give a message saying "Listening on:" followed by an https address, copy the https address on your browser to open the web app.
 
-The repository includes also a "Text&dictionary example" folder containing examples of how the app can be used.
+A "Text&dictionary example" folder containing texts and dictionaries for example purposes can be accessed by clicking [here](https://github.com/Ighina/SemanticNetworkVizR/tree/master/Text%26dictionaries%20example).
 
 *NB at the moment, for a better performance, is preferable to include every word in the dictionary twice, one with first letter capitalised and one without.
 
