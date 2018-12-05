@@ -247,6 +247,7 @@ server_prova<-function(input,output,session){
           ylab('Absolute Frequency')+labs(fill='Dictionaries')}}
       else{
         list_text<-list()
+        preproc_text_list<-list()
           list_text[[1]]<-readLines(input$file1$datapath)
           list_text[[2]]<-readLines(input$file2$datapath)
         if(num_texts>2){list_text[[3]]<-readLines(input$file3$datapath)}
@@ -665,6 +666,7 @@ server_prova<-function(input,output,session){
           DT::datatable(newer_df)}}
       else{
         list_text<-list()
+        preproc_text_list<-list()
         list_text[[1]]<-readLines(input$file1$datapath)
         list_text[[2]]<-readLines(input$file2$datapath)
         if(num_texts>2){list_text[[3]]<-readLines(input$file3$datapath)}
