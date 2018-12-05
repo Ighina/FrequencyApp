@@ -76,7 +76,6 @@ server_prova<-function(input,output,session){
       if(input$stem=='yes'){
       preproc_text<-stemDocument(preproc_text)}
       preproc_text<-paste(preproc_text, collapse = " ")
-      print(head(preproc_text))
       dict_list<-list()
       dict_list[[1]]<-vector()
       dict_list[[1]]<-input$dictionary1
