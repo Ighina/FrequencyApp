@@ -1,7 +1,7 @@
 # FrequencyApp
 Shiny app to discover and visualise the occurrences of words and/or word-sets (i.e. dictionaries) in given txt files (up to 5)
 
-<h2 style="color:blu;">What's in the Repository</h2>
+<h2 style="color:blue;">What's in the Repository</h2>
 
 The repository consists in a folder ('FrequencyApp'), which can be downloaded to run the relative shiny web application on locale, and a app.R file that is the same file contained in the SemanticApp folder but allows to run the app directly from GitHub.
 
