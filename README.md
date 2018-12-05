@@ -1,7 +1,12 @@
 # FrequencyApp
 Shiny app to discover and visualise the occurrences of words and/or word-sets (i.e. dictionaries) in given txt files (up to 5)
 
-<h2 style="color:blue;">What's in the Repository</h2>
+## Index
+
+- [What's in the Repository](#first)
+- [What the App Does](#second)
+
+<a name="first"><h2>What's in the Repository</h2></a>
 
 The repository consists in a folder ('FrequencyApp'), which can be downloaded to run the relative shiny web application on locale, and a app.R file that is the same file contained in the SemanticApp folder but allows to run the app directly from GitHub.
 
@@ -15,7 +20,7 @@ The repository includes also a "Text&dictionary example" folder containing examp
 
 *NB at the moment, for a better performance, is preferable to include every word in the dictionary twice, one with first letter capitalised and one without.
 
-h2(What the App Does)
+<a name="second"><h2>What the App Does</h2></a>
 
 The app takes up to five texts (in .txt format) and look into them to find the occurrences of user-defined words or set of words (i.e. dictionaries). The set of words or dictionaries are included as an option in order to tackle the scenarios in which more than one word in a text points to a given concept of interest (e.g. synonims like aim/purpose). To deal with this problem, the app applies the same logic and, in part, the same codes used in my other repository 'SemanticNetworkVizR' and that can be explored further by looking, cloning or downloading the R Notebook in it by the name 'NotebookR SemanticNetwork.Rmd'.
 
