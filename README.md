@@ -29,9 +29,9 @@ There are two frequency options: absolute and relative. The first one report the
 
 There are two general options available from the navigation bar on top of the page: plot and data. The first option is the standard one and consists in the file input spots and in a barplot visualisation of the frequencies obtained from the inputs. The second option presents such frequencies in a numerical way through a table/dataframe.
 
-<a name=#third><h2>Using the App directly from the Browser</h2></a>
+<a name="third"><h2>Using the App directly from the Browser</h2></a>
 
-The app can be used directly online by using the online version of RStudio. In order to do so, then, go to [RStudio's cloud](https://rstudio.cloud/) and, if you don't have an account, create one. Once signed in, create a new project. Once inside the project you will see the RStudio console: install shiny with the following code **install.packages('shiny')**
-Once shiny has been installed run the following code: **shiny::runGitHub('Ighina/FrequencyApp','Ighina')**
+The app can be used directly online by using the online version of RStudio. In order to do so, then, go to [RStudio's cloud](https://rstudio.cloud/) and, if you don't have an account, create one. Once signed in, create a new project. Once inside the project you will see the RStudio console: install shiny with the following code **install.packages('shiny')** .
+Once shiny has been installed run the following code: **shiny::runGitHub('Ighina/FrequencyApp','Ighina')** .
 After having installed all the required packages, the app should appear on a new tab of your browser.
 
