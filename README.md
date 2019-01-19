@@ -34,4 +34,4 @@ There are two general options available from the navigation bar on top of the pa
 The app can be used directly online by using the online version of RStudio. In order to do so, then, go to [RStudio's cloud](https://rstudio.cloud/) and, if you don't have an account, create one. Once signed in, create a new project. Once inside the project you will see the RStudio console: install shiny with the following code **install.packages('shiny')** .
 Once shiny has been installed run the following code: **shiny::runGitHub('Ighina/FrequencyApp','Ighina')** .
 After having installed all the required packages, the app should appear on a new tab of your browser.
-
+Another simpler way to access the app is by going on its Internet location hosted by Shiny servers. RStudio/Shiny, in fact, also provide a free server hosting service on which to store Shiny Apps. By clicking <a href="https://iacopo-ghinassi.shinyapps.io/frequencyapp/">here</a> it should be possible to access such a webpage as hosted o their server.
